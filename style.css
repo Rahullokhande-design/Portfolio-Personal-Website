@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.whole-website {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 1500px;
+}
+
+/* Hero section */
+section {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.moving-paticles {
+  position: relative;
+}
+
+.uxd {
+  color: #DB324E;
+}
+
+.text-over-particles {
+  position: absolute;
+  top: 0;
+}
+
+.hero-text-1 {
+  margin-top: 200px;
+  margin-right: 200px;
+  margin-left: 100px;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 40px;
+  color: #191919;
+  opacity: 1;
+}
+
+.hero-text-2 {
+  margin-left: 100px;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 40px;
+  color: #191919;
+  opacity: 1;
+}
+
+.hero-text-3 {
+  margin-left: 100px;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 40px;
+  color: #191919;
+  opacity: 1;
+}
+
+/* projects section */
+.projects {
+  width: 100%;
+  height: 4100px;
+  background: #F3F3F5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: relative;
+}
+
+.card-1 {
+  width: 1180px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 250px 120px 250px 120px;
+}
+
+
+
+
+
+
+.neumorph-1 {
+  width: 405px;
+  height: 450px;
+  background: #F0F0F3;
+  box-shadow: 10px 10px 10px #D9D9D9;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.neumorph-2 {
+  width: 405px;
+  height: 450px;
+  background: #F0F0F3;
+  box-shadow: -10px -10px 10px #FFFFFF;
+  border-radius: 20px;
+  opacity: 1;
+  display: flex;
+}
+
+.card-2 {
+  width: 1180px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 1000px 120px 250px 120px;
+}
+
+.card-3 {
+  width: 1180px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 1800px 120px 250px 120px;
+}
+
+.card-4 {
+  width: 1180px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 2600px 120px 250px 120px;
+}
+
+.card-5 {
+  width: 1180px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  margin: 3400px 120px 250px 120px;
+}
+
+/* card decoration text */
+.line-svg {
+  padding: 50px 50px 0px 45px;
+}
+
+.texts {
+  width: 396px;
+  height: 500px;
+}
+
+.card-ux {
+  font-family: Poppins;
+  font-size: 27px;
+  font-weight: 500;
+  color: #959595;
+  padding-top: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.card-title {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 500;
+  color: #191919;
+  text-align: center;
+}
+
+.card-subtitle {
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 300;
+  color: #646464;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ux-image {
+  width: 800px;
+  height: 450px;
+  margin-left: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+}
+
+.layer {
+  width: 800px;
+  height: 450px;
+  background: #6F6F6F;
+opacity: 0.4;
+margin-left: 0px;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 395px;
+position: absolute;
+}
+
+/* Footer */
+.footer-bold {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 400;
+  color: #191919;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.footer-text {
+  font-family: Poppins;
+  font-size: 31px;
+  font-weight: 300;
+  color: #191919;
+  text-align: left;
+  margin-left: 200px;
+  line-height: 50px;
+}
+
+.footer-mail {
+  text-decoration: underline #DB324E;
+  background-color: #F9DBE0;
+}
+
+
+.mail-me{
+  color: #191919;
+}
+
+.footer-else {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 300;
+  color: #DB324E;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.platform-in {
+  margin: 0px 30px 30px 515px;
+  padding: 0px 30px 20px 30px;
+  height: 60px;
+  width: 60px;
+}
+
+
+.platform-beh {
+  padding: 0px 60px 50px 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.platform-insta {
+  padding: 0px 60px 50px 30px;
+  height: 60px;
+  width: 60px;
+}
+
+.footer-last {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  color: #646464;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10;
+  padding: 0;
+}
